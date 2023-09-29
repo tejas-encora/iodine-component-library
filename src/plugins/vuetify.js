@@ -2,6 +2,7 @@
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 import { VDatePicker } from 'vuetify/labs/VDatePicker'
+
 // import '/dist/style.css'
 
 // Vuetify

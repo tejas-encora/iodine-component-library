@@ -1,21 +1,28 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main>      
+      <VTextInput/>
       <VButton />
-      <VDatePicker />
+      <VDatePick />
+      <NonVuetify />
+
     </v-main>
   </v-app>
 </template>
 
 <script>
 import VButton from './components/VButton.vue'
-import VDatePicker from './components/VDatePicker.vue'
+import VDatePick from './components/VDatePick.vue'
+import NonVuetify from './components/NonVuetify.vue'
+import VTextInput from './components/VTextInput.vue'
 export default {
   name: 'App',
 
   components: {
     VButton,
-    VDatePicker
+    VDatePick,
+    NonVuetify,
+    VTextInput
   }
 }
 </script>
