@@ -1,5 +1,6 @@
 // Styles
-import '@mdi/font/css/materialdesignicons.css'
+// import '@mdi/font/css/materialdesignicons.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 import 'vuetify/styles'
 import { VDatePicker } from 'vuetify/labs/VDatePicker'
 
@@ -7,7 +8,15 @@ import { VDatePicker } from 'vuetify/labs/VDatePicker'
 
 // Vuetify
 import { createVuetify } from 'vuetify'
+import { aliases, fa } from 'vuetify/iconsets/fa'
 export default createVuetify({
+  icons: {
+    defaultSet: 'fa',
+    aliases,
+    sets: {
+      fa,
+    }
+  },
   components: {
     VDatePicker,
   },
