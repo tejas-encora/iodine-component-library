@@ -1,6 +1,6 @@
 {
   "name": "iodine-vuetify-test",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
@@ -17,6 +17,10 @@
   ],
   "copyFiles": [
     {
+      "from": "node_modules/iodine-vuetify-test/src/plugins/index.js",
+      "to": "src/plugins"
+    },
+    {
       "from": "node_modules/iodine-vuetify-test/src/plugins/vuetify.js",
       "to": "src/plugins"
     },
@@ -26,6 +30,7 @@
     }
   ],
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
     "@mdi/font": "5.9.55",
     "iodine-vuetify-lib": "^0.1.4",
     "roboto-fontface": "*",
@@ -44,6 +49,7 @@
     "@storybook/vue3": "^7.4.5",
     "@storybook/vue3-vite": "^7.4.5",
     "@vitejs/plugin-vue": "^3.0.3",
+    "copy-files-from-to": "^3.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.4.5",
