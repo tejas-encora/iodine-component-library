@@ -1,6 +1,6 @@
 {
   "name": "iodine-vuetify-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
@@ -14,7 +14,16 @@
     "dist",
     "src/plugins"
   ],
-  "postinstall": "cp -r src/plugins/ $INIT_CWD/src",
+  "copyFiles": [
+    {
+      "from": "node_modules/iodine-vuetify-test/src/plugins/vuetify.js",
+      "to": "src/plugins"
+    },
+    {
+      "from": "node_modules/iodine-vuetify-test/src/plugins/webfont-loader.js",
+      "to": "src/plugins"
+    }
+  ],
   "dependencies": {
     "@mdi/font": "5.9.55",
     "iodine-vuetify-lib": "^0.1.4",
