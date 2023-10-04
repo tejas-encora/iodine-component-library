@@ -1,13 +1,13 @@
 {
   "name": "iodine-lib",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "postinstall": "cp -r ./src/plugins ../../src/plugins"
+    "postinstall": "node postinstall.js"
   },
   "main": "./dist/iodine-lib.umd.js",
   "module": "./dist/iodine-lib.es.js",
