@@ -1,10 +1,12 @@
 {
-  "name": "iodine-vuetify-lib",
-  "version": "0.2.1",
+  "name": "iodine-vuetify-test",
+  "version": "0.0.2",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "main": "./dist/iodine-vuetify-lib.umd.js",
   "module": "./dist/iodine-vuetify-lib.es.js",
@@ -12,17 +14,29 @@
     "dist",
     "src/plugins"
   ],
+  "postinstall": "{{cp -r src/plugins/ $INIT_CWD/src/plugins}}",
   "dependencies": {
     "@mdi/font": "5.9.55",
     "iodine-vuetify-lib": "^0.1.4",
     "roboto-fontface": "*",
+    "storybook-vue-addon": "^0.4.0",
     "vue": "^3.2.16",
     "vuetify": "^3.3.19",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/vue3": "^7.4.5",
+    "@storybook/vue3-vite": "^7.4.5",
     "@vitejs/plugin-vue": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.4.5",
     "vite": "^3.0.8",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vue-cli-plugin-vuetify": "~2.5.8"
