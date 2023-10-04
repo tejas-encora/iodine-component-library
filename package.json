@@ -1,13 +1,13 @@
 {
   "name": "iodine-lib",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "postinstall": "cp -r ./src/plugins ../../src/ && cp -r .src/styles ../../src/styles",
+    "postinstall": "cp -r ./src/plugins ../../src/ && cp -r ./src/styles ../../src/styles",
     "chromatic": "npx chromatic --project-token chpt_119750c67189a5a"
   },
   "main": "./dist/iodine-lib.umd.js",
