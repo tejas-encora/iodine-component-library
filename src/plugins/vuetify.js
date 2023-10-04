@@ -2,8 +2,9 @@
 import '@mdi/font/css/materialdesignicons.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'vuetify/styles'
-import { VDatePicker } from 'vuetify/lib/labs/components.mjs'
-import { aliases, fa } from 'vuetify/iconsets/fa'
+import { VDatePicker } from 'vuetify/labs/VDatePicker'
+import { fa } from 'vuetify/iconsets/fa'
+import { aliases, mdi } from 'vuetify/lib/iconsets/mdi'
 
 // Vuetify
 import { createVuetify } from 'vuetify'
@@ -15,7 +16,8 @@ const lightTheme = {
     defaultSet: 'fa',
     aliases,
     sets: {
-      fa,
+      mdi,
+      fa
     },
   },
   dark: false,
