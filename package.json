@@ -1,6 +1,6 @@
 {
   "name": "iodine-lib",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
@@ -13,8 +13,7 @@
   "module": "./dist/iodine-lib.es.js",
   "files": [
     "dist",
-    "src/plugins",
-    "./postinstall.js"
+    "src/plugins"
   ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
