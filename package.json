@@ -1,6 +1,6 @@
 {
   "name": "iodine-vuetify-test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
@@ -20,7 +20,7 @@
       "to": "src/plugins"
     },
     {
-      "from": "node_modules/iodine-vuetify-test/src/plugins/webfont-loader.js",
+      "from": "node_modules/iodine-vuetify-test/src/plugins/webfontloader.js",
       "to": "src/plugins"
     }
   ],
