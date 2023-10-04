@@ -1,6 +1,6 @@
 {
   "name": "iodine-lib",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
