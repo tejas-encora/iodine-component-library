@@ -1,12 +1,13 @@
 {
   "name": "iodine-vuetify-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "postinstall": "copy-files-from-to"
   },
   "main": "./dist/iodine-vuetify-lib.umd.js",
   "module": "./dist/iodine-vuetify-lib.es.js",
