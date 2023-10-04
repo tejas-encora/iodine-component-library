@@ -1,6 +1,6 @@
 {
-  "name": "iodine-vuetify-test",
-  "version": "0.0.8",
+  "name": "iodine-vuetify-lib",
+  "version": "0.2.2",
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
