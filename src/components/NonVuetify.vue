@@ -10,4 +10,3 @@
   </div>
   </v-app>
 </template>
-

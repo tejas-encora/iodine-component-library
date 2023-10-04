@@ -1,4 +1,4 @@
-import NonVuetify from '../components/NonVuetify.vue';
+import NonVuetify from '@/components/NonVuetify.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
@@ -6,3 +6,14 @@ export default {
   component: NonVuetify,
   tags: ['autodocs'],
 };
+
+const Template = (args) => ({
+  components: { NonVuetify },
+  setup() {
+    return { args };
+  },
+  template: '<NonVuetify v-bind="args" />',
+});
+
+export const Default = Template.bind({});
+Default.args = {};
