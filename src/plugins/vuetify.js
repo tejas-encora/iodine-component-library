@@ -2,6 +2,7 @@
 import '@mdi/font/css/materialdesignicons.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'vuetify/styles'
+import '@/styles/main.scss'
 import { VDatePicker } from 'vuetify/labs/VDatePicker'
 import { fa } from 'vuetify/iconsets/fa'
 import { aliases, mdi } from 'vuetify/lib/iconsets/mdi'

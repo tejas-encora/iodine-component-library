@@ -1,6 +1,5 @@
 import NonVuetify from '@/components/NonVuetify.vue';
 
-// More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
   title: 'Example/NonVuetify',
   component: NonVuetify,
@@ -12,7 +11,7 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<NonVuetify v-bind="args" />',
+  template: '<NonVuetify />',
 });
 
 export const Default = Template.bind({});
