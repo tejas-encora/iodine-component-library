@@ -1,3 +1,7 @@
 <template>
-  <v-date-picker elevation="20" color="iodinePurple"></v-date-picker>
+  <v-date-picker color="primary"></v-date-picker>
 </template>
+
+<style>
+
+</style>

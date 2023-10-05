@@ -3,7 +3,9 @@
     <v-main>      
       <VTextInput/>
       <VButton />
+      <p>&nbsp</p>
       <VDatePick />
+      <p>&nbsp</p>
       <NonVuetify />
 
     </v-main>

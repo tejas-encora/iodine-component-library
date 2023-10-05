@@ -1,4 +1,11 @@
 
-.v-btn--size-default {
-  border-radius: 10px;
+.v-picker__header > div {
+  border-bottom: 1px solid #C0C8CD
+}
+.v-picker-title {
+  text-transform: none !important;
+}
+.v-picker-title, .v-picker__header {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.87);
 }

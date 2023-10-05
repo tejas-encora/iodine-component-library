@@ -1,4 +1,3 @@
 <template>
-  <v-btn color="iodinePurple">Test Button</v-btn>
+  <v-btn color="primary">Test Button</v-btn>
 </template>
-

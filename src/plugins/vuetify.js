@@ -2,6 +2,7 @@
 import '@mdi/font/css/materialdesignicons.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'vuetify/styles'
+import '@/styles/settings.scss'
 import '@/styles/main.scss'
 import { VDatePicker } from 'vuetify/labs/VDatePicker'
 import { fa } from 'vuetify/iconsets/fa'
@@ -23,14 +24,14 @@ const lightTheme = {
   },
   dark: false,
   colors: {
-    primary: "#ff0000",
-    secondary: "#8e44ad",
-    background: "#ecf0f1",
-    error: "#c0392b",
+    primary: "#2848EE",
+    secondary: "#006876",
+    tertiary: "#006783",
+    error: "#B4271F",
     info: "#2980b9",
-    success: "#27ae60",
-    warning: "#f1c40f",
-    iodinePurple: "#59336D",
+    success: "#41A447",
+    warning: "#FFCA28",
+    blank: "#ffffff"
   }
 };
 
@@ -49,7 +50,7 @@ const darkTheme = {
 
 export default createVuetify({
   components: {
-    VDatePicker
+    VDatePicker,
   },
   directives,
   theme: {
@@ -60,3 +61,4 @@ export default createVuetify({
     },
   },
 });
+
