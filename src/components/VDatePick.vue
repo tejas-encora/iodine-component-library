@@ -1,7 +1,3 @@
 <template>
-  <v-date-picker color="primary"></v-date-picker>
+  <v-date-picker color="primary" elevation="8"></v-date-picker>
 </template>
-
-<style>
-
-</style>

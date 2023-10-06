@@ -1,0 +1,4 @@
+// Specific Vuetify settings
+@use 'vuetify/settings' with (
+    $utilities: true,
+);

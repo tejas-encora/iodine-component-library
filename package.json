@@ -1,13 +1,16 @@
 {
-  "name": "iodine-lib",
-  "version": "0.3.9",
+  "name": "@encoradxp/iodine-lib",
+  "version": "0.4.3",
+  "publicConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
     "dev": "vite",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "postinstall": "cp -r ./src/plugins ../../src/ && cp -r ./src/styles ../../src/styles",
+    "postinstall": "cp -r ./src/plugins ../../../src && cp -r ./src/styles ../../../src",
     "chromatic": "npx chromatic --project-token chpt_119750c67189a5a"
   },
   "main": "./dist/iodine-lib.umd.js",
@@ -18,16 +21,14 @@
     "src/styles"
   ],
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-pro": "^6.4.2",
     "@mdi/font": "5.9.55",
-    "roboto-fontface": "*",
     "storybook-vue-addon": "^0.4.0",
     "vue": "^3.2.16",
     "vuetify": "^3.3.19",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
     "@storybook/addon-essentials": "^7.4.5",
     "@storybook/addon-interactions": "^7.4.5",
     "@storybook/addon-links": "^7.4.5",
@@ -36,7 +37,7 @@
     "@storybook/vue3": "^7.4.5",
     "@storybook/vue3-vite": "^7.4.5",
     "@vitejs/plugin-vue": "^3.0.3",
-    "copy-files-from-to": "^3.9.0",
+    "lato-font": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.68.0",

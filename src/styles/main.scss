@@ -1,3 +1,8 @@
+@use 'vuetify/settings' with (
+  // Place SASS variable overrides here
+  $font-size-root: 14px,
+  $body-font-family: 'Lato'
+);
 
 .v-picker__header > div {
   border-bottom: 1px solid #C0C8CD
@@ -8,4 +13,18 @@
 .v-picker-title, .v-picker__header {
   background: #fff;
   color: rgba(0, 0, 0, 0.87);
+}
+.v-btn {
+  font-weight: 500 !important;
+  text-transform: none;
+  letter-spacing: 0.1px;
+}
+body {
+  color: #000;
+  font-family: "Lato"!important;
+  font-weight: 400;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.25px;
+  font-size: 14px;
 }
